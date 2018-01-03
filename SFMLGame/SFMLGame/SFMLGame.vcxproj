@@ -72,23 +72,23 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Dev\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Dev\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\Dev\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Dev\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\Dev\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Dev\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>D:\Dev\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Dev\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Dev\Research\DiddyDod\Vendor\SFML-2.4.2\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -165,13 +165,14 @@
     <ClCompile Include="Source\Components\GravityComponent.cpp" />
     <ClCompile Include="Source\Components\PointMassComponent.cpp" />
     <ClCompile Include="Source\EntityManager.cpp" />
+    <ClCompile Include="Source\FireManager.cpp" />
     <ClCompile Include="Source\Util.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FireManager.h" />
     <ClInclude Include="Source\Components\GravityComponent.h" />
     <ClInclude Include="Source\Components\PointMassComponent.h" />
     <ClInclude Include="Source\EntityManager.h" />
+    <ClInclude Include="Source\FireManager.h" />
     <ClInclude Include="Source\Types.h" />
     <ClInclude Include="Source\Util.h" />
   </ItemGroup>

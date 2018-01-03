@@ -33,6 +33,9 @@
     <ClCompile Include="Source\Components\GravityComponent.cpp">
       <Filter>Source Files\Components</Filter>
     </ClCompile>
+    <ClCompile Include="Source\FireManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\EntityManager.h">
@@ -50,7 +53,7 @@
     <ClInclude Include="Source\Components\GravityComponent.h">
       <Filter>Source Files\Components</Filter>
     </ClInclude>
-    <ClInclude Include="FireManager.h">
+    <ClInclude Include="Source\FireManager.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

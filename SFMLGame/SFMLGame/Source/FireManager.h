@@ -17,12 +17,16 @@ public:
 		U16 *	m_Left;
 		U16 *	m_Right;
 		U16 *	m_Below;
+
+		static size_t ComponentSize() { return (sizeof(F32) * 2) + (sizeof(U16) * 3); }
 	};
 
 	C_FireData	m_Data;
 
 
 	void	Allocate(U32 noElements);
+
+	void	BuildFromString(const char *str, int stride);
 
 	void	Simulate(F32 dT);
 
